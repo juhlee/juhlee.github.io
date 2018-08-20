@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Projects</title>
+</head>
+<body>
+    <link href="../style/mainpage.css" rel="stylesheet" />
+    <h1 class="main_header"> GUGC Intern slaves </h1>
+
+    <nav id="topMenu">
+        <ul>
+            <li class="topMenuLi">
+                <a class="menuLink" href="main.html"> About us</a>
+                <ul class="submenu">
+                    <li><a class="submenuLink" href="main.html#all"> The Team</a></li>
+                    <li><a class="submenuLink" href="main.html#ju"> Ju Hyung Lee</a></li>
+                    <li><a class="submenuLink" href="main.html#mi"> Pyeong Eun Kim</a></li>
+                    <li><a class="submenuLink" href="main.html#py"> Mi Jeong Lee</a></li>
+                </ul>
+            </li>
+            <li>|</li>
+            <li class="topMenuLi">
+                <a class="menuLink" href="internship.html"> Projects</a>
+                <ul class="submenu">
+                    <li><a class="submenuLink longLink" href="internship.html#winterinternship"> GUGC Internship Winter 2018</a></li>
+                    <li><a class="submenuLink longLink" href="internship.html#kcc"> Korea Computer Congress 2018 </a></li>
+                    <li><a class="submenuLink longLink" href="internship.html#summerinternship"> GUGC Intensed Study Summer 2018</a></li>
+                </ul>
+            </li>
+            <li>|</li>
+            <li class="topMenuLi">
+                <a class="menuLink" href="equipment.html"> Our equipment</a>
+                <ul class="submenu">
+                    <li><a class="submenuLink" href="equipment.html#ju_eq"> Ju Hyung Lee</a></li>
+                    <li><a class="submenuLink" href="equipment.html#py_eq"> Pyeong Eun Kim</a></li>
+                    <li><a class="submenuLink" href="equipment.html#mi_eq"> Mi Jeong Lee</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <p class="subheader"> What we have done </p>
+        <ul>
+            <li> <p class="description"><a href="#winterinternship"> January 2018: Internship at GUGC - Speech-to-Text </a></p></li>
+            <li><p class="description"><a href="#kcc"> June 2018: Korea Comptuer Congress 2018 </a></p></li>
+            <li><p class="description"><a href="##summerinternship"> July 2018: Intensed Research at GUGC - Image Segregation </a></p></li>
+        </ul>
+
+    <p class="subheader" id="winterinternship"> Internship at GUGC: Speech-to-Text </p>
+    <p class="description">
+        On January 2018, we were offered a place for a paid internship program under supervision of Ph.D Mijung Kim
+        and Prof.Wesley De Neve at GUGC. The main goal of this program was to grasp very basics of machine learning,
+        and create a Speech-To-Text (STT) module by following instructions in <a href="https://github.com/mozilla/DeepSpeech"> Project DeepSpeech.</a>
+
+        <br /> <br />
+        For further information, please follow the link below:
+        <br /> <a href="https://github.com/ugent-korea/tf-medical-stt">
+        https://github.com/ugent-korea/tf-medical-stt </a>
+        <br /> <br />
+        We also created a simple GUI to make the STT module as user-friendly as possible. A python module
+        called <em>Tkinter</em> was used. The following pictures are the screenshots of the GUI:
+        <br /> <br />
+    </p>
+
+    <!-- Slideshow for STT-GUI -->
+    <link href="../style/slideshow.css" rel="stylesheet" />
+    <script src="../style/slideshow_java.js"></script>
+
+    <div class="slidestt">
+
+        <div class="mySlides" id="initial">
+            <div class="numbertext">1 / 5</div>
+            <img src="img/gui1.png">
+            <div class="text">1. Main window of the GUI</div>
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">2 / 5</div>
+            <img src="img/gui2.png">
+            <div class="text">2. Loading up a speech file</div>
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">3 / 5</div>
+            <img src="img/gui3.png">
+            <div class="text">3. Running the GUI</div>
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">4 / 5</div>
+            <img src="img/gui4.png">
+            <div class="text">4. Result page</div>
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">5 / 5</div>
+            <img src="img/gui5.png">
+            <div class="text">5. (Optional) Save the output</div>
+        </div>
+
+        <!-- '다음'과 '전' 버튼-->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <!-- 현재 몇번째 이미지인지 알려주는 땡땡이 -->
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+    </div>
+
+    <p class="subheader" id="kcc"> Korea Computer Congress 2018</p>
+    <p class="description">
+        At the beginning of March 2018 semester, we casually figured out that Korea Computer
+        Congress 2018 will be held throughout June 20th to 22nd. Wondering if what we did
+        during the Internship program in January 2018 could be viable for the congress,
+        we searched for the prerequisites for the applicable fields of study. Turned out it was!
+        We wrote a 3-page research paper that discussed the performance and application of
+        speech-to-text in medical fields. Hopefully, our paper received an acceptable score
+        and we were granted an opportunity to attend the congress and explain our paper in person.
+    </p>
+    <br /><img src="img/kcc1.png"><br />
+    <p class="description">
+        As mentioned above, the event was held for 3 days, and we only had  to attend the
+        last day (22nd) to present our research. We were in the junior/undergraduate
+        division, so we only had to create a poster that briefly describes the outline of our
+        research and explain it to randomly passing-by judges who show some extent of interest.
+    </p>
+
+    <p class="subheader" id="summerinternship"> Intensed Research at GUGC: Image Segregation</p>
+    <p class="description">
+        On Summer 2018, GUGC offered students places in program named "Intensed Research", where
+        students work under Ph.D students or Professors for arbitrary periods during the
+        summer holiday. Three of us, the same members from the previous January Internship,
+        were offered to learn under one of the Ph.D students in the department of <strong>Biotech
+        Data Science</strong>.
+    </p>
+    <p class="description">
+        Quite similar from the January Internship, we had to deal with machine learning again
+        (or deep learning). This time, however, the target was the image instead of  the text.
+        The main objective was to apply deep learning algorithms on cell images and eventually
+        separate out only the <ins>borders of the cell</ins>.
+        <br /><br />
+        Refer to the below image for the input and desired result:
+        <img src="img/segment1.jpg" width="100%">
+        <br /><br />
+        For further informations, please visit our repository:
+        <br /> <a href="https://github.com/ugent-korea/pytorch-unet-segmentation">
+        https://github.com/ugent-korea/pytorch-unet-segmentation </a>
+    </p>
+</body>
+</html>
