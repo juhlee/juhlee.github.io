@@ -1,6 +1,6 @@
 // Initiation
 var slideIndex = 1;
-showSlides(slideIndex);
+sh;owSlides(slideIndex)
 
 // Next/previous controls
 function plusSlides(n) {
