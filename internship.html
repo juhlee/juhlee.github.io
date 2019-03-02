@@ -1,57 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="kr">
 <head>
     <meta charset="UTF-8">
-    <title> Projects</title>
+    <meta name="me myself and I" content="all about me!">
+
+    <title> All about me </title>
 </head>
 <body>
-    <link href="style/mainpage.css" rel="stylesheet" />
-    <h1 class="main_header"> GUGC Intern slaves </h1>
 
-    <nav id="topMenu">
-        <ul>
-            <li class="topMenuLi">
-                <a class="menuLink" href="main.html"> About us</a>
-                <ul class="submenu">
-                    <li><a class="submenuLink" href="main.html#all"> The Team</a></li>
-                    <li><a class="submenuLink" href="main.html#ju"> Ju Hyung Lee</a></li>
-                    <li><a class="submenuLink" href="main.html#mi"> Pyeong Eun Kim</a></li>
-                    <li><a class="submenuLink" href="main.html#py"> Mi Jeong Lee</a></li>
-                </ul>
-            </li>
-            <li>|</li>
-            <li class="topMenuLi">
-                <a class="menuLink" href="internship.html"> Projects</a>
-                <ul class="submenu">
-                    <li><a class="submenuLink longLink" href="internship.html#winterinternship"> GUGC Internship Winter 2018</a></li>
-                    <li><a class="submenuLink longLink" href="internship.html#kcc"> Korea Computer Congress 2018 </a></li>
-                    <li><a class="submenuLink longLink" href="internship.html#summerinternship"> GUGC Intensed Study Summer 2018</a></li>
-                </ul>
-            </li>
-            <li>|</li>
-            <li class="topMenuLi">
-                <a class="menuLink" href="equipment.html"> Our equipment</a>
-                <ul class="submenu">
-                    <li><a class="submenuLink" href="equipment.html#ju_eq"> Ju Hyung Lee</a></li>
-                    <li><a class="submenuLink" href="equipment.html#py_eq"> Pyeong Eun Kim</a></li>
-                    <li><a class="submenuLink" href="equipment.html#mi_eq"> Mi Jeong Lee</a></li>
-                </ul>
-            </li>
-        </ul>
-    </nav>
+<div class="div_body_border">
+<div class="div_body">
+<!-- load the sylesheet for the main page -->
+<link href="../style/mainpage.css" rel="stylesheet" />
+<p class="main_header"> PRACTICE </p>
 
-    <p class="subheader"> What we have done </p>
+    <div class="sticky">
+        <nav id="topMenu">
+            <ul class="Menu">
+                <li class="topMenuLi">
+                    <a class="menuLink" href="index.html"> Personal </a>
+                    <ul class="submenu">
+                        <li><a class="submenuLink" href="index.html#general"> General </a></li>
+                        <li><a class="submenuLink" href="index.html#contact"> Contact </a></li>
+                    </ul>
+                </li>
+                <li>|</li>
+                <li class="topMenuLi">
+                    <a class="menuLink" href="internship.html"> Academics </a>
+                    <ul class="submenu">
+                        <li><a class="submenuLink longLink" href="internship.html#winterinternship"> GUGC Internship Winter 2018</a></li>
+                        <li><a class="submenuLink longLink" href="internship.html#kcc"> Korea Computer Congress 2018 </a></li>
+                        <li><a class="submenuLink longLink" href="internship.html#summerinternship"> GUGC Intensed Study Summer 2018</a></li>
+                        <li><a class="submenuLink longLink" href="internship.html#lab"> Lab reports </a></li>
+                    </ul>
+                </li>
+                <li>|</li>
+                <li class="topMenuLi">
+                    <a class="menuLink" href="hobbie.html"> Photos </a>
+                    <ul class="submenu">
+                        <li><a class="submenuLink" href="hobbie.html#equip"> Daily drivers </a></li>
+                        <li><a class="submenuLink" href="hobbie.html#photos"> Taken photos </a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <p class="subheader"> Extracurricular Activities </p>
+    <nav>
         <ul>
             <li> <p class="description"><a href="#winterinternship"> January 2018: Internship at GUGC - Speech-to-Text </a></p></li>
             <li><p class="description"><a href="#kcc"> June 2018: Korea Comptuer Congress 2018 </a></p></li>
             <li><p class="description"><a href="##summerinternship"> July 2018: Intensed Research at GUGC - Image Segregation </a></p></li>
         </ul>
+    </nav>
 
     <p class="subheader" id="winterinternship"> Internship at GUGC: Speech-to-Text </p>
     <p class="description">
         On January 2018, we were offered a place for a paid internship program under supervision of Ph.D Mijung Kim
-        and Prof.Wesley De Neve at GUGC. The main goal of this program was to grasp very basics of machine learning,
-        and create a Speech-To-Text (STT) module by following instructions in <a href="https://github.com/mozilla/DeepSpeech"> Project DeepSpeech.</a>
+        and Prof.Wesley De Neve at GUGC. The main goal of this program was to grasp the very basics of machine learning,
+        and create a simple Speech-To-Text (STT) module by following instructions in <a href="https://github.com/mozilla/DeepSpeech"> Project DeepSpeech.</a>
 
         <br /> <br />
         For further information, please follow the link below:
@@ -153,5 +161,23 @@
         <br /> <a href="https://github.com/ugent-korea/pytorch-unet-segmentation">
         https://github.com/ugent-korea/pytorch-unet-segmentation </a>
     </p>
+
+    <!-- 랩 리포트 소개 -->
+    <p class="subheader"> Lab reports in GUGC </p>
+
+    <nav>
+        <ul>
+            <li><a class="description" href="#bach2"> 2nd Bachelor's year</a></li>
+            <li><a class="description" href="#bach3"> 3rd Bachelor's year</a></li>
+            <li><a class="description" href="#bach4"> 4th Bachelor's year</a></li>
+        </ul>
+    </nav>
+
+    <p class="subheader"> Labs done in 2nd Bachelor's year </p>
+    <p class="description">
+
+    </p>
+</div>
+</div>
 </body>
 </html>
